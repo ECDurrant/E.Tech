@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.vb" Inherits="EricTech.Global_asax" Language="VB" %>

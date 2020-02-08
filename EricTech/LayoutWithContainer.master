@@ -1,0 +1,6 @@
+<%@ Master Language="VB" MasterPageFile="~/Layout.master" %>
+<asp:Content runat="server" ContentPlaceHolderID="Content">
+<div class="container">
+    <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+</div>
+</asp:Content>
