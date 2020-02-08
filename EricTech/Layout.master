@@ -51,8 +51,10 @@
                                             <ItemStyle Paddings-PaddingLeft="22" Paddings-PaddingRight="22" />
                                             <Items>
                                                 <dx:MenuItem Text="MAIN" NavigateUrl="~/Pages/Home.aspx" />
+                                                <dx:MenuItem Text="ECD" NavigateUrl="~/ECD/ECD1.aspx" />
                                                 <dx:MenuItem Text="BLOG" NavigateUrl="~/Pages/BlogTimeline.aspx" />
-                                                <dx:MenuItem Text="CONTACT US" NavigateUrl="~/Pages/Contacts.aspx" />
+                                                <%--<dx:MenuItem Text="CONTACT US" NavigateUrl="~/Pages/Contacts.aspx" />--%>
+                                                
                                             </Items>
                                         </dx:ASPxMenu>
                                     </div>
@@ -72,14 +74,14 @@
                                             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" title="<%:Page.User.Identity.Name%>">
                                                 <span class="glyphicon glyphicon-user"></span>
                                             </button>
-                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+               <%--                             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                                                 <li><a href="<%:Page.ResolveClientUrl("~/Account/Manage.aspx")%>"><span class="glyphicon glyphicon-cog"></span>Manage</a></li>
                                                 <li role="separator" class="divider"></li>
                                                 <li>
                                                     <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="&lt;span class=&quot;glyphicon glyphicon-log-out&quot;&gt;&lt;/span&gt; Log Out"
                                                         LogoutPageUrl="~/" OnLoggingOut="HeadLoginStatus_LoggingOut" />
                                                 </li>
-                                            </ul>
+                                            </ul>--%>
                                         </div>
                                         <a href="<%:Page.ResolveClientUrl("~/Account/Manage.aspx")%>" class="btn btn-default loginButton loginButton-large">
                                             <span class="glyphicon glyphicon-cog"></span>Manage

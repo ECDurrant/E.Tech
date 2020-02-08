@@ -266,6 +266,20 @@
     <Compile Include="App_Start\IdentityConfig.vb" />
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="Code\BlogPosts.vb" />
+    <Compile Include="ECD\ECD1.aspx.designer.vb">
+      <DependentUpon>ECD1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ECD\ECD1.aspx.vb">
+      <DependentUpon>ECD1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ECD\ECD2.aspx.designer.vb">
+      <DependentUpon>ECD2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ECD\ECD2.aspx.vb">
+      <DependentUpon>ECD2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -371,7 +385,15 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Banner6.png" />
+    <Content Include="Content\Images\Bluebanner.png" />
+    <Content Include="Content\Images\GooDibaby.jpg" />
+    <Content Include="Content\Images\icons8-disconnected-16.png" />
+    <Content Include="Content\Images\icons8-disconnected-24.png" />
+    <Content Include="Content\Images\In-White-26.png" />
     <Content Include="Content\site.css" />
+    <Content Include="ECD\ECD1.aspx" />
+    <Content Include="ECD\ECD2.aspx" />
     <Content Include="Layout.master" />
     <Content Include="Pages\BlogPost.aspx" />
     <Content Include="Pages\BlogTimeline.aspx" />
@@ -412,6 +434,8 @@
     <Folder Include="Content\Images\Blog\" />
     <Folder Include="Content\Images\Components\" />
     <Folder Include="Content\Images\NewFolder1\" />
+    <Folder Include="DurrantAC\" />
+    <Folder Include="GDomain\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

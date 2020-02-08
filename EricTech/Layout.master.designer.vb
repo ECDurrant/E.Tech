@@ -41,15 +41,6 @@ Partial Public Class Layout
     Protected WithEvents NavMenu As Global.DevExpress.Web.ASPxMenu
 
     '''<summary>
-    '''HeadLoginStatus control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents HeadLoginStatus As Global.System.Web.UI.WebControls.LoginStatus
-
-    '''<summary>
     '''HeadLoginStatusSmall control.
     '''</summary>
     '''<remarks>
